@@ -1,0 +1,12 @@
+
+http://localhost:8888/api/createLink
+Content-Type: application/json
+
+{
+    "url" : "https://github.com/", 
+    "name" : "asuthamm",
+    "description" : "abc"
+}
+
+###
+http://localhost:8888/api/getLinks
