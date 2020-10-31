@@ -1,12 +1,12 @@
 
-http://localhost:8888/api/createLink
+POST http://localhost:8888/api/createLink
 Content-Type: application/json
 
 {
+    "name" : "dana",
     "url" : "https://github.com/", 
-    "name" : "asuthamm",
     "description" : "abc"
 }
 
 ###
-http://localhost:8888/api/getLinks
+GET http://localhost:8888/api/getLinks
