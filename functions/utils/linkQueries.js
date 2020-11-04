@@ -24,9 +24,17 @@ const CREATE_LINK = `
     }
 `;
 
+const DELETE_LINK = `
+  mutation($id: ID!) {
+        deleteLink( id: $id) {
+            _id
+        }
+    }
+`;
 
 
 module.exports = {
     GET_LINKS,
     CREATE_LINK,
+    DELETE_LINK
 };
